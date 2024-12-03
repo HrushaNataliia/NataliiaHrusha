@@ -70,7 +70,6 @@ public class GreenCitySignInTest {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get("http://localhost:4205/#/greenCity");
-
     }
 
     @BeforeEach
